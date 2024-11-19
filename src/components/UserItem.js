@@ -8,8 +8,8 @@ const UserItem = ({user, onEdit, onDelete}) => (
       </strong>{' '}
       - {user.email} ({user.department})
     </p>
-    <button onClick={() => onEdit(user)}>Edit</button>
-    <button onClick={() => onDelete(user.id)}>Delete</button>
+    <button  onClick={() => onEdit(user)}>Edit</button>
+    <button  onClick={() => onDelete(user.id)}>Delete</button>
   </div>
 )
 
